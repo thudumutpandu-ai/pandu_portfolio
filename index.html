@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thudumu Gnanesh - Web Developer Portfolio">
+    <title>Thudumu Gnanesh | Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">TG<span>.</span></a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-contact">Hire Me ↗</a>
+    </header>
+
+    <!-- HOME -->
+    <section class="hero section" id="home">
+
+        <div class="hero-content reveal">
+            <p class="welcome">
+                <span class="status-dot"></span>
+                WELCOME TO MY PORTFOLIO
+            </p>
+
+            <h1>
+                Hi, I'm <br>
+                <span class="gradient-text">Thudumu<br>Gnanesh</span>
+            </h1>
+
+            <h2>I'm a <span id="typing"></span><span class="cursor">|</span></h2>
+
+            <p class="description">
+                I am a passionate Web Developer who loves creating
+                modern, responsive and user-friendly websites.
+                I enjoy building digital experiences with clean code
+                and creative ideas.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    Explore Projects ↗
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank">GH</a>
+                <a href="mailto:thudumutpandu@gmail.com">@</a>
+            </div>
+        </div>
+
+        <!-- PROFILE PHOTO -->
+        <div class="hero-image reveal">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="profile-card" id="profileCard">
+
+                <img
+                    src="images/123.png"
+                    alt="Thudumu Gnanesh"
+                    onerror="this.style.display='none';document.getElementById('avatar').style.display='grid';"
+                >
+
+                <div class="avatar" id="avatar">TG</div>
+
+            </div>
+
+            <div class="floating-card card-one">
+                ✦ Web Developer
+            </div>
+
+            <div class="floating-card card-two">
+                &lt; Coding /&gt;
+            </div>
+
+            <div class="floating-card card-three">
+                🚀 Creative Mind
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-title reveal">
+            <p class="small-heading">DISCOVER MY JOURNEY</p>
+            <h2>About <span class="gradient-text">Me</span></h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="glass-card about-card reveal">
+
+                <div class="icon-box">✧</div>
+
+                <h3>Building Ideas Into Digital Reality</h3>
+
+                <p>
+                    Hello! I'm Thudumu Gnanesh, a Web Developer
+                    passionate about designing and developing
+                    modern websites and web applications.
+                </p>
+
+                <p>
+                    I have knowledge of Python, HTML, CSS,
+                    JavaScript, PostgreSQL and MongoDB.
+                    I enjoy learning new technologies,
+                    solving problems and improving my development skills.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Let's Connect ↗
+                </a>
+
+            </div>
+
+            <div class="about-stats reveal">
+
+                <div class="glass-card stat-card">
+                    <h3>06<span>+</span></h3>
+                    <p>Technical Skills</p>
+                </div>
+
+                <div class="glass-card stat-card">
+                    <h3>100<span>%</span></h3>
+                    <p>Passion to Learn</p>
+                </div>
+
+                <div class="glass-card stat-card wide-stat">
+                    <h3>∞</h3>
+                    <p>Ideas and Creativity</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+
+        <div class="section-title reveal">
+            <p class="small-heading">MY TECHNICAL EXPERTISE</p>
+            <h2>My <span class="gradient-text">Skills</span></h2>
+            <p class="section-subtitle">
+                Technologies I use to build digital applications.
+            </p>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="glass-card skill-card reveal">
+                <div class="skill-icon">Py</div>
+                <h3>Python</h3>
+                <p>Programming & Backend</p>
+                <div class="progress"><span style="width:80%"></span></div>
+            </div>
+
+            <div class="glass-card skill-card reveal">
+                <div class="skill-icon">5</div>
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+                <div class="progress"><span style="width:90%"></span></div>
+            </div>
+
+            <div class="glass-card skill-card reveal">
+                <div class="skill-icon">#</div>
+                <h3>CSS</h3>
+                <p>Web Styling & Design</p>
+                <div class="progress"><span style="width:85%"></span></div>
+            </div>
+
+            <div class="glass-card skill-card reveal">
+                <div class="skill-icon">JS</div>
+                <h3>JavaScript</h3>
+                <p>Interactive Websites</p>
+                <div class="progress"><span style="width:75%"></span></div>
+            </div>
+
+            <div class="glass-card skill-card reveal">
+                <div class="skill-icon">Pg</div>
+                <h3>PostgreSQL</h3>
+                <p>Relational Database</p>
+                <div class="progress"><span style="width:75%"></span></div>
+            </div>
+
+            <div class="glass-card skill-card reveal">
+                <div class="skill-icon">M</div>
+                <h3>MongoDB</h3>
+                <p>NoSQL Database</p>
+                <div class="progress"><span style="width:75%"></span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+
+        <div class="section-title reveal">
+            <p class="small-heading">MY RECENT WORK</p>
+            <h2>My <span class="gradient-text">Projects</span></h2>
+            <p class="section-subtitle">
+                Some sample projects. You can update these later.
+            </p>
+        </div>
+
+        <div class="projects-container">
+
+            <div class="glass-card project-card reveal">
+                <div class="project-image project-one">
+                    <span>01</span>
+                    <div class="project-art">🎓</div>
+                </div>
+
+                <div class="project-content">
+                    <p class="project-type">PYTHON · MONGODB</p>
+                    <h3>Student Attendance Management system</h3>
+                    <a href="https://attendancegnanesh.netlify.app/"></a>
+
+                    <p>
+                        An application to manage student names,
+                        college details, courses and marks.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <a href="https://attendancegnanesh.netlify.app/">
+                        Project Live Link/
+                    </a>
+                </div>
+            </div>
+
+            <div class="glass-card project-card reveal">
+                <div class="project-image project-two">
+                    <span>02</span>
+                    <div class="project-art">💻</div>
+                </div>
+
+                <div class="project-content">
+                    <p class="project-type">HTML · CSS · JAVASCRIPT</p>
+                    <h3>Responsive Website</h3>
+
+                    <p>
+                        A modern responsive website with
+                        attractive layouts and interactive elements.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://comforting-pavlova-ff39a2.netlify.app/">
+                        PROJECT LINK ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="glass-card project-card reveal">
+                <div class="project-image project-three">
+                    <span>03</span>
+                    <div class="project-art">🗄️</div>
+                </div>
+
+                <div class="project-content">
+                    <p class="project-type">PYTHON · POSTGRESQL</p>
+                    <h3>Database Management App</h3>
+
+                    <p>
+                        A sample backend application for
+                        connecting and managing database records.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                    </div>
+
+                    <a href="https://xr1pet.netlify.app/">
+                        PROJECT LINK ↗
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+
+        <div class="section-title reveal">
+            <p class="small-heading">MY ACADEMIC BACKGROUND</p>
+            <h2>My <span class="gradient-text">Education</span></h2>
+        </div>
+
+        <div class="glass-card education-card reveal">
+            <div class="education-icon">🎓</div>
+
+            <div>
+                <p class="small-heading">Education</p>
+                <h3>DEGREE</h3>
+                <p>Academic background in Graduation</p>
+                <span class="education-status">Learning & Growing</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+
+        <div class="contact-card glass-card reveal">
+
+            <p class="small-heading">LET'S WORK TOGETHER</p>
+
+            <h2>
+                Have a Project?
+                <span class="gradient-text">Let's Talk!</span>
+            </h2>
+
+            <p>
+                I'm always interested in learning,
+                collaborating and exploring new opportunities.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a class="btn primary-btn"
+                   href="mailto:thudumutpandu@gmail.com">
+                    Send Email ↗
+                </a>
+
+                <a class="btn secondary-btn"
+                   href="https://github.com/thudumutpandu-ai?tab=repositories"
+                   target="_blank">
+                    My GitHub ↗
+                </a>
+
+            </div>
+
+            <p class="email-text">
+                thudumutpandu@gmail.com
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">TG<span>.</span></a>
+
+        <p>
+            Designed & Built by Thudumu Gnanesh kumar
+            © <span id="year"></span>
+        </p>
+
+        <a href="#home" class="back-top">Back to Top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
